@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Michael Löffelmann | Portfolio</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- carousel -->
+        <div id="carousel" class="carousel">
+
+            <!-- progress bar on top - mobile only -->
+            <div class="progress-bar-mobile hide-on-desktop">
+                <div class="progress-bar-fill"></div>
+            </div>
+
+            <!-- labels - desktop only -->
+            <div class="labels-wrapper hide-on-mobile">
+
+                <!-- logo -->
+                <div class="logo">
+                    <img src="images/logo_loffelmann.svg" alt="">
+                </div>
+
+                <article id="label-coding" class="label active" title="View my profile on GitHub.">
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill"></div>
+                    </div>
+                    <h2 class="label-title">
+                        Coding
+                    </h2>
+                </article>
+
+                <article id="label-ux-ui" class="label" title="Open gallery.">
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill"></div>
+                    </div>
+                    <h2 class="label-title">
+                        UX/UI design
+                    </h2>
+                </article>
+
+                <article id="label-web-design" class="label" title="Open gallery.">
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill"></div>
+                    </div>
+                    <h2 class="label-title">
+                        Web design
+                    </h2>
+                </article>
+
+                <article id="label-print" class="label" title="Open gallery.">
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill"></div>
+                    </div>
+                    <h2 class="label-title">
+                        Print
+                    </h2>
+                </article>
+
+            </div>
+
+            <!-- logo bars-->
+            <div class="logo-bar left hide-on-mobile"></div>
+            <div class="logo-bar right hide-on-mobile"></div>
+
+            <!-- arrows -->
+            <svg id="arrow-left" class="arrow left" width="48" height="48" viewBox="-10 -12 48 48">
+                <path d="M 20,3 16.943,0 5,12 16.943,24 20,21 11,12 Z">
+            </svg>
+            <svg id="arrow-right" class="arrow right" width="48" height="48" viewBox="-12 -12 48 48">
+                <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z">
+            </svg>
+
+            <!-- slides -->
+            <div class="slides">
+                <article class="slide active">
+                    <div class="content coding">
+                        <div class="title">
+                            <h1>
+                                Coding
+                            </h1>
+                            <p>
+                                My profile on GitHub.
+                            </p>
+                            <a id="button-coding" class="button button-slide" href="#">Go to profile &raquo;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slide passive">
+                    <div class="content uxui">
+                        <div class="title">
+                            <h1>
+                                UX/UI
+                            </h1>
+                            <p>
+                                UI designs for mobile, web and desktop applications.
+                            </p>
+                            <a id="button-ux-ui" class="button button-slide" href="#">Display gallery &raquo;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slide passive">
+                    <div class="content web">
+                        <div class="title">
+                            <h1>
+                                Web design
+                            </h1>
+                            <p>
+                                Websites I have designed and coded.
+                            </p>
+                            <a id="button-web-design" class="button button-slide" href="#">Display gallery &raquo;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="slide passive">
+                    <div class="content print">
+                        <div class="title">
+                            <h1>
+                                Print
+                            </h1>
+                            <p>
+                                This gallery contains my print designs.
+                            </p>
+                            <a id="button-print" class="button button-slide" href="#">Display gallery &raquo;</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </div> <!-- end carousel wrapper -->
+
+        <!-- info -->
+        <section class="info">
+            <article class="about-me">
+                <img src="images/info_about-me.svg" alt="">
+                <h1>About me</h1>
+                <p>I'm a web developer and graphic designer in Prague. I aim to become a&nbsp;full-stack
+                    developer, to be able to make sites and applications from the design stage to the deployment.
+                </p>
+                <a class="button" href="#">Contact &raquo;</a>
+            </article>
+
+            <article class="skills">
+                <img src="images/info_skills.svg" alt="">
+                <h1>Skills</h1>
+                <p>While proficient in graphic design and DTP, lately I have focused on learning JavaScript and PHP. I
+                    strive to write robust, efficient and readable code with as few external dependencies as possible.
+                </p>
+                <a class="button" href="#">Current Project &raquo;</a>
+            </article>
+
+            <article class="work-experience">
+                <img src="images/info_work-experience.svg" alt="">
+                <h1>Experience</h1>
+                <p>I have 15 years of experience from various environments. I started by making pre-press and
+                    print design, followed by UX/UI designs for mobile applications and websites, then coding emails.
+                </p>
+                <a class="button" href="#">View CV &raquo;</a>
+            </article>
+        </section>
+
+        <!-- features -->
+        <section class="features">
+            <article class="reliability">
+                <div class="copy">
+                    <h2>Reliability. <span class="light">Using proven technologies.</span></h2>
+                    <p>Since the ultimate focus of a website or an application is on the user, I'm trying to combine
+                        proven technologies with latest concepts in order to make robust, fast and efficient product in
+                        terms of both performance and ergonomy.</p>
+                </div>
+                <img src="images/feature_reliability.svg" alt="">
+            </article>
+
+            <article class="universality">
+                <div class="copy">
+                    <h2>Adaptability. <span class="light">Quick learning in&nbsp;fast moving world.</span></h2>
+                    <p>Web technologies are ever changing and developing, just as the devices, concepts and the very way
+                        users experience internet today. Being able to quickly learn is therefore necessary.</p>
+                </div>
+                <img src="images/feature_learning.svg" alt="">
+            </article>
+
+            <article class="experience">
+                <div class="copy">
+                    <h2>Experience. <span class="light">Fifteen years of diverse points of view.</span></h2>
+                    <p>I believe it's better to be Jack of all trades, than Master of one. It gives me broader view
+                        and more options when deciding how to approach a specific subject.</p>
+                </div>
+                <img src="images/feature_experience.svg" alt="">
+            </article>
+        </section>
+
+        <!-- back to top -->
+        <footer class="footer">
+            <a id="back-to-top" class="button">Back to top</a>
+            <!-- <a href='https://www.freepik.com/upklyak'>Artwork created by upklyak - www.freepik.com</a> -->
+        </footer>
+
+    </div>
+
+    <!-- showcase -->
+
+    <!-- UX/UI design -->
+    <div id="gallery-ux-ui" class="overlay">
+        <div class="showcase">
+            <a href="#" class="button close-gallery">Close</a>
+            <img id="gallery-ux-ui-preview" class="preview" src="images/gallery/ux-ui/capgame.jpg" alt="">
+            <div class="thumbnails">
+                <img class="gallery-ux-ui-thumbnail" src="images/gallery/ux-ui/capgame.jpg" alt="">
+                <img class="gallery-ux-ui-thumbnail" src="images/gallery/ux-ui/clns.png" alt="">
+                <img class="gallery-ux-ui-thumbnail" src="images/gallery/ux-ui/fa.png" alt="">
+                <img class="gallery-ux-ui-thumbnail" src="images/gallery/ux-ui/monster.png" alt="">
+                <img class="gallery-ux-ui-thumbnail" src="images/gallery/ux-ui/mrm.png" alt="">
+                <img class="gallery-ux-ui-thumbnail" src="images/gallery/ux-ui/project_stopwatch.png" alt="">
+            </div>
+            <h4>UX/UI DESIGN</h4>
+        </div>
+    </div>
+
+    <!-- web design -->
+    <div id="gallery-web-design" class="overlay">
+        <div class="showcase">
+            <a href="#" class="button close-gallery">Close</a>
+            <img id="gallery-web-design-preview" class="preview" src="images/gallery/web-design/arten.jpg" alt="">
+            <div class="thumbnails">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/arten.jpg" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/colorific.png" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/emtc.jpg" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/lol.jpg" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/otto.jpg" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/rbpenze.jpg" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/rof.jpg" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/sharkware.jpg" alt="">
+                <img class="gallery-web-design-thumbnail" src="images/gallery/web-design/wow.jpg" alt="">
+            </div>
+            <h4>WEB DESIGN</h4>
+        </div>
+    </div>
+
+    <!-- print -->
+    <div id="gallery-print" class="overlay">
+        <div class="showcase">
+            <a href="#" class="button close-gallery">Close</a>
+            <img id="gallery-print-preview" class="preview" src="images/gallery/print/capgemini.jpg" alt="">
+            <div class="thumbnails">
+                <img class="gallery-print-thumbnail" src="images/gallery/print/capgemini.jpg" alt="">
+                <img class="gallery-print-thumbnail" src="images/gallery/print/changer.jpg" alt="">
+                <img class="gallery-print-thumbnail" src="images/gallery/print/makro.jpg" alt="">
+                <img class="gallery-print-thumbnail" src="images/gallery/print/nivea.jpg" alt="">
+                <img class="gallery-print-thumbnail" src="images/gallery/print/part.jpg" alt="">
+                <img class="gallery-print-thumbnail" src="images/gallery/print/vizitka.png" alt="">
+            </div>
+            <h4>PRINT</h4>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
